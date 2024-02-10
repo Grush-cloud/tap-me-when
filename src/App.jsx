@@ -8,8 +8,8 @@ import {
   addDoc,
 } from "firebase/firestore";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Root from "./routes/root";
 import Emotion from "./routes/Emotion";
+import Root from "./routes/Root.jsx";
 
 function App() {
   const [thankful, setThankful] = useState([]);
